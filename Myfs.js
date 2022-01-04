@@ -1,7 +1,6 @@
 const fs = require("fs");
 //readflie
 const data = fs.readFileSync("myflie/data.txt", "utf8");
-
 console.log(data);
 //writeflie
 
